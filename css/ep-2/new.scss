@@ -1,0 +1,190 @@
+$yellow: #FF9900;
+$white: #fff;
+$blue: #042440;
+$light-yellow: #FDF5EA;
+$black: #000;
+
+.nav-tabs{
+    li.nav-item{
+      a.active, a.active:hover{
+          background-color: $yellow;
+          color: $white;
+          border: 0px;
+      }  
+    }
+
+    .text-25{
+      font-size: 2em;
+    }
+
+    font-size: 19px;
+}
+
+.footer{
+  .white:hover{
+    color: $white;
+  }
+}
+
+.custom-nav-bg{
+  background-color: $blue;
+}
+
+.white{
+  color: $white;
+}
+
+.logo
+{
+  width: 297px;
+  height: 62.5px;
+}
+
+.degree{
+  font-weight: 300;
+  font-size:16px;
+  text-transform:none;
+}
+
+.rounded-rect{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+  height: fit-content;
+  background-color: $white;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.contact-num{
+  color: $white;
+  font-family:Montserrat;
+  font-weight: 300;
+  font-size: 16px;
+  float: right;
+}
+
+.circle-links{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: $yellow;
+}
+
+.email{
+  color: $white;
+  font-family:Montserrat;
+  font-weight: 300;
+  font-size: 16px;
+  float: left;
+}
+
+.resp-down-norm-nomargin{
+  margin-top: auto;
+}
+
+.container-intro{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.section-part-header
+{
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  width:min-content;
+  height: fit-content;
+  color: $black;
+  border-bottom: 5px solid #ff9900;
+}
+
+.skill-text{
+  text-align: center;
+  font-size: 18px;
+}
+
+.bg-custom-light-yellow{
+  background: $light-yellow;
+}
+
+.md-horizontal-content{
+  display: block;
+}
+
+.xs-vertical-content{
+  display: none;
+}
+
+.col-ed-header{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.col-content{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+
+.rotated-image{
+  transform: rotate(90deg);
+}
+
+.intern-content{
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.text-300{
+  font-weight: 300;
+  color: $white;
+}
+
+.text-500{
+  font-weight: 600;
+  color: $white;
+}
+
+.score{
+position: absolute;
+top: 38%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-weight: 700;
+font-size: 45px;
+}
+
+
+.rounded-shape{
+  border-radius: 15px 50px;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .contact-num, .email{
+      float: none;
+      padding-top: 2%;
+      padding-bottom: 2%;
+  }
+  .resp-down-norm-nomargin{
+      margin-top: 10%;
+  }
+  .md-horizontal-content{
+      display: none;
+  }
+  
+  .xs-vertical-content{
+      display: block;
+  }
+}

@@ -1,0 +1,25 @@
+.nav-tabs {
+  font-size: 19px;
+}
+
+.nav-tabs li.nav-item a.active, .nav-tabs li.nav-item a.active:hover {
+  background-color: #FF9900;
+  color: #000;
+  border: 0px;
+  width: fit-content;
+  border: none !important;
+}
+
+.nav-tabs .text-25 {
+  font-size: 2em;
+}
+
+.footer .white:hover {
+  color: #fff;
+}
+
+.rounded-shape{
+  border-radius: 15px 50px;
+  height: max-content;
+}
+
